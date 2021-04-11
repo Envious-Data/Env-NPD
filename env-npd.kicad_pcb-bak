@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 10)
     (tracks 381)
     (zones 0)
     (modules 39)
@@ -2064,6 +2064,7 @@
     )
   )
 
+  (gr_poly (pts (xy 88.36 76.89) (xy 83.86 76.89) (xy 83.86 70.17) (xy 88.36 70.17)) (layer Eco2.User) (width 0.1))
   (gr_arc (start 73.55 154.45) (end 73.15 154.45) (angle -90) (layer Edge.Cuts) (width 0.1) (tstamp 60725F00))
   (gr_arc (start 178.15 154.45) (end 178.15 154.85) (angle -90) (layer Edge.Cuts) (width 0.1) (tstamp 60725F00))
   (gr_arc (start 178.15 56.25) (end 178.55 56.25) (angle -90) (layer Edge.Cuts) (width 0.1) (tstamp 60725F00))
