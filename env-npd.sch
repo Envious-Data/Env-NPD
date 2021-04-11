@@ -542,7 +542,7 @@ U 1 1 60717378
 P 2650 6850
 F 0 "MCU1" H 2650 8065 50  0000 C CNN
 F 1 "Pico" H 2650 7974 50  0000 C CNN
-F 2 "MCU_RaspberryPi_and_Boards.pretty:RPi_Pico_SMD_TH" V 2650 6850 50  0001 C CNN
+F 2 "Pico:Rpi-pico-modified" V 2650 6850 50  0001 C CNN
 F 3 "" H 2650 6850 50  0001 C CNN
 	1    2650 6850
 	1    0    0    -1  
