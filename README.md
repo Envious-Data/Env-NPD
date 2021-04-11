@@ -1,6 +1,6 @@
 # Env-NPD
 A Raspberry Pi Pico powered Numpad!
-
+![Board Image](env-npd.png)
 
 ### What is this?
 This is another RPI Pico type mechanical board thing alike my other project but a entirely seperate numpad!
