@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A2 23386 16535
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -537,47 +537,47 @@ Connection ~ 1350 1400
 Wire Wire Line
 	1350 1400 2350 1400
 $Comp
-L MCU_RaspberryPi_and_Boards:Pico MCU1
+L env-npd-rescue:Pico-MCU_RaspberryPi_and_Boards MCU1
 U 1 1 60717378
-P 2650 6850
-F 0 "MCU1" H 2650 8065 50  0000 C CNN
-F 1 "Pico" H 2650 7974 50  0000 C CNN
-F 2 "Pico:Rpi-pico-modified" V 2650 6850 50  0001 C CNN
-F 3 "" H 2650 6850 50  0001 C CNN
-	1    2650 6850
+P 7000 2900
+F 0 "MCU1" H 7000 4115 50  0000 C CNN
+F 1 "Pico" H 7000 4024 50  0000 C CNN
+F 2 "Pico:Rpi-pico-modified" V 7000 2900 50  0001 C CNN
+F 3 "" H 7000 2900 50  0001 C CNN
+	1    7000 2900
 	1    0    0    -1  
 $EndComp
-Text GLabel 3350 6700 2    50   Input ~ 0
+Text GLabel 7700 2750 2    50   Input ~ 0
 col1
-Text GLabel 3350 6800 2    50   Input ~ 0
+Text GLabel 7700 2850 2    50   Input ~ 0
 col2
-Text GLabel 3350 7000 2    50   Input ~ 0
+Text GLabel 7700 3050 2    50   Input ~ 0
 col3
-Text GLabel 3350 6500 2    50   Input ~ 0
+Text GLabel 7700 2550 2    50   Input ~ 0
 col0
-Text GLabel 3350 7200 2    50   Input ~ 0
+Text GLabel 7700 3250 2    50   Input ~ 0
 row0
-Text GLabel 3350 7300 2    50   Input ~ 0
+Text GLabel 7700 3350 2    50   Input ~ 0
 row1
-Text GLabel 3350 7400 2    50   Input ~ 0
+Text GLabel 7700 3450 2    50   Input ~ 0
 row2
-Text GLabel 3350 7500 2    50   Input ~ 0
+Text GLabel 7700 3550 2    50   Input ~ 0
 row3
-Text GLabel 3350 7700 2    50   Input ~ 0
+Text GLabel 7700 3750 2    50   Input ~ 0
 row4
-Text GLabel 3350 6100 2    50   Input ~ 0
+Text GLabel 7700 2150 2    50   Input ~ 0
 GND
-Text GLabel 3350 7600 2    50   Input ~ 0
+Text GLabel 7700 3650 2    50   Input ~ 0
 GND
-Text GLabel 3350 7100 2    50   Input ~ 0
+Text GLabel 7700 3150 2    50   Input ~ 0
 GND
-Text GLabel 1950 7600 0    50   Input ~ 0
+Text GLabel 6300 3650 0    50   Input ~ 0
 GND
-Text GLabel 1950 7100 0    50   Input ~ 0
+Text GLabel 6300 3150 0    50   Input ~ 0
 GND
-Text GLabel 1950 6600 0    50   Input ~ 0
+Text GLabel 6300 2650 0    50   Input ~ 0
 GND
-Text GLabel 1950 6100 0    50   Input ~ 0
+Text GLabel 6300 2150 0    50   Input ~ 0
 GND
 Connection ~ 2350 5400
 Wire Wire Line
@@ -610,47 +610,73 @@ Connection ~ 2350 1400
 Wire Wire Line
 	2350 1400 3350 1400
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole_Pad H4
 U 1 1 60749CF0
-P 4650 6800
-F 0 "H4" H 4750 6846 50  0000 L CNN
-F 1 "MountingHole" H 4750 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4650 6800 50  0001 C CNN
-F 3 "~" H 4650 6800 50  0001 C CNN
-	1    4650 6800
+P 9450 2550
+F 0 "H4" H 9550 2596 50  0000 L CNN
+F 1 "MountingHole" H 9550 2505 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9450 2550 50  0001 C CNN
+F 3 "~" H 9450 2550 50  0001 C CNN
+	1    9450 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole_Pad H3
 U 1 1 6074AE4C
-P 4650 6600
-F 0 "H3" H 4750 6646 50  0000 L CNN
-F 1 "MountingHole" H 4750 6555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4650 6600 50  0001 C CNN
-F 3 "~" H 4650 6600 50  0001 C CNN
-	1    4650 6600
+P 10050 2550
+F 0 "H3" H 10150 2596 50  0000 L CNN
+F 1 "MountingHole" H 10150 2505 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 10050 2550 50  0001 C CNN
+F 3 "~" H 10050 2550 50  0001 C CNN
+	1    10050 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole_Pad H2
 U 1 1 6074C8DC
-P 4650 6400
-F 0 "H2" H 4750 6446 50  0000 L CNN
-F 1 "MountingHole" H 4750 6355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4650 6400 50  0001 C CNN
-F 3 "~" H 4650 6400 50  0001 C CNN
-	1    4650 6400
+P 9750 2550
+F 0 "H2" H 9850 2596 50  0000 L CNN
+F 1 "MountingHole" H 9850 2505 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9750 2550 50  0001 C CNN
+F 3 "~" H 9750 2550 50  0001 C CNN
+	1    9750 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L Mechanical:MountingHole_Pad H1
 U 1 1 6074DDFE
-P 4650 6200
-F 0 "H1" H 4750 6246 50  0000 L CNN
-F 1 "MountingHole" H 4750 6155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4650 6200 50  0001 C CNN
-F 3 "~" H 4650 6200 50  0001 C CNN
-	1    4650 6200
+P 9150 2550
+F 0 "H1" H 9250 2596 50  0000 L CNN
+F 1 "MountingHole" H 9100 2750 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9150 2550 50  0001 C CNN
+F 3 "~" H 9150 2550 50  0001 C CNN
+	1    9150 2550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9150 2650 9450 2650
+Wire Wire Line
+	10150 2650 10150 2800
+Connection ~ 9450 2650
+Wire Wire Line
+	9450 2650 9750 2650
+Connection ~ 9750 2650
+Wire Wire Line
+	9750 2650 10050 2650
+Connection ~ 10050 2650
+Wire Wire Line
+	10050 2650 10150 2650
+$Comp
+L power:GND #PWR0101
+U 1 1 6148BA63
+P 10150 2800
+F 0 "#PWR0101" H 10150 2550 50  0001 C CNN
+F 1 "GND" H 10155 2627 50  0000 C CNN
+F 2 "" H 10150 2800 50  0001 C CNN
+F 3 "" H 10150 2800 50  0001 C CNN
+	1    10150 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 2650 2    50   Input ~ 0
+GND
 $EndSCHEMATC
